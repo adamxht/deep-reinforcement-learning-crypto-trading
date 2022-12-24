@@ -314,7 +314,7 @@ elif menu_id == "Technical indicators":
                 boll_df = pd.concat([boll_df, df_hiboll], axis = 1)
                 st.line_chart(boll_df)
                 
-elif menu_id == "Home":
+elif menu_id == "Evaluate":
     # Show header
     big_title = '<p style="font-family:Sans-serif; color: #d1b765; font-size: 50px;text-align:center">Agents Performance</p>'
     st.markdown(big_title, unsafe_allow_html=True)
@@ -417,36 +417,3 @@ elif menu_id == "Home":
         st.markdown(eval_title, unsafe_allow_html=True)
         eval_desc = '<p style="font-family:Sans-serif; color: #FFFFFF; font-size: 20px;text-align:center">Evaluate the Trading Performance of our trained AI on the Test Set (one year)</p>'
         st.markdown(eval_desc, unsafe_allow_html=True)
-
-                    
-
-            
-        
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -58,7 +58,7 @@ menu_data = [
         {'id': "Evaluate", 'icon': "far fa-address-book",'label':"Evaluate"}
 ]
 over_theme = {'txc_inactive': '#FFFFFF', 'menu_background':'#262730','txc_active':'#000000','option_active':'#d1b765'}
-menu_id = hc.nav_bar(menu_definition=menu_data,home_name='Home',override_theme=over_theme, hide_streamlit_markers=False)
+menu_id = hc.nav_bar(menu_definition=menu_data,home_name='Home',override_theme=over_theme)#, hide_streamlit_markers=False)
 
 # Style Buttons
 m = st.markdown("""

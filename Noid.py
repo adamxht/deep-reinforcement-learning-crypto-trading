@@ -17,7 +17,6 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.preprocessing import StandardScaler
 from keras.models import load_model
 from sklearn.metrics import mean_squared_error 
-import cv2
 
 # Constants
 STATE_SPACE = 132

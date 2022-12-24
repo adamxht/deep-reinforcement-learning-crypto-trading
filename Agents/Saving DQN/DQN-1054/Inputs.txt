@@ -1,0 +1,1 @@
+OHLCV, r, v, sig, macd, rsi, bollinger, fng, prediction -> 132, 80 episodes, eps_decay = 0.95

@@ -2,3 +2,4 @@ yfinance
 scikit-learn
 tensorflow
 hydralit
+torch

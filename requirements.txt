@@ -4,4 +4,3 @@ tensorflow
 hydralit
 torch
 beautifulsoup4
-opencv_contrib_python

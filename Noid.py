@@ -53,7 +53,7 @@ st.set_page_config(
 
 # specify the primary menu definition
 menu_data = [
-        {'id': '', 'icon': "🏠", 'label':""},
+        {'id': '', 'icon': "Home", 'label':""},
         {'id': 'Trade', 'icon': "far fa-chart-bar", 'label':"Trade"},
         {'id':'Technical indicators','icon':"fas fa-tachometer-alt",'label':"Technical indicators"},
         {'id': "Evaluate", 'icon': "far fa-address-book",'label':"Evaluate"}

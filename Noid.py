@@ -53,11 +53,12 @@ st.set_page_config(
 
 # specify the primary menu definition
 menu_data = [
+        {'id':'Home','icon': "far fa-copy"},
         {'id': 'Trade', 'icon': "far fa-chart-bar", 'label':"Trade"},
         {'id':'Technical indicators','icon':"fas fa-tachometer-alt",'label':"Technical indicators"},
         {'id': "Evaluate", 'icon': "far fa-address-book",'label':"Evaluate"}
 ]
-over_theme = {'txc_inactive': '#FFFFFF','home_name': 'Home', 'menu_background':'#262730','txc_active':'#000000','option_active':'#d1b765'}
+over_theme = {'txc_inactive': '#FFFFFF', 'menu_background':'#262730','txc_active':'#000000','option_active':'#d1b765'}
 menu_id = hc.nav_bar(menu_definition=menu_data,override_theme=over_theme)#, hide_streamlit_markers=False)
 
 # Style Buttons
@@ -383,7 +384,7 @@ elif menu_id == "Home":
         
         
                 
-elif menu_id == "":
+elif menu_id == "Home":
     # Show header
     big_title = '<p style="font-family:Sans-serif; color: #d1b765; font-size: 50px;text-align:center">Welcome to Noid\'s Crypto Trading  Solution</p>'
     st.markdown(big_title, unsafe_allow_html=True)
